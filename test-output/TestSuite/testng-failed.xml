@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [TestSuite]" parallel="tests">
+  <parameter name="browser" value="safari"/>
+  <test name="ChromeTest">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.object_TestNG.CrossBrowser"/>
+    </classes>
+  </test> <!-- ChromeTest -->
+  <test name="Safari">
+    <parameter name="browser" value="safari"/>
+    <classes>
+      <class name="com.object_TestNG.CrossBrowser"/>
+    </classes>
+  </test> <!-- Safari -->
+</suite> <!-- Failed suite [TestSuite] -->

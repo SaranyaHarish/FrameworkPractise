@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [Parallel Testing Suite]" parallel="tests">
+  <test name="Parallel Tests1">
+    <classes>
+      <class name="com.object_TestNG.ParallelExecution"/>
+    </classes>
+  </test> <!-- Parallel Tests1 -->
+  <test name="Parallel Tests2">
+    <classes>
+      <class name="com.object_TestNG.ParallelExecution"/>
+    </classes>
+  </test> <!-- Parallel Tests2 -->
+  <test name="Parallel Tests3">
+    <classes>
+      <class name="com.object_TestNG.ParallelExecution"/>
+    </classes>
+  </test> <!-- Parallel Tests3 -->
+</suite> <!-- Failed suite [Parallel Testing Suite] -->

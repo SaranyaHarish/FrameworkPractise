@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+ <suite name = "Test Suite">
+<test name = "Parallel Tests" parallel = "methods" thread-count="2" >
+<listeners>
+<listener class-name="org.object_failedTestCase.Transform">
+</listener>
+</listeners>
+<classes>
+<class name = "org.object_failedTestCase.TestCase" />
+</classes>
+</test>
+</suite>
+ 
+
+
+
